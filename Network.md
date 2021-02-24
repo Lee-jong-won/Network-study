@@ -1,5 +1,5 @@
 
-## 네트워크 공부 정리 내용 
+# 네트워크 공부 정리 내용 
 
 후니의 시스코 네트워킹(https://smartstore.naver.com/bookmount/products/4661023484?NaPm=ct%3Dklj50hfs%7Cci%3D80f5b7579df8cdcd01964caad5866d76b0f4a041%7Ctr%3Dsls%7Csn%3D246606%7Chk%3Da9f29bca4d45dd6aabd77239762586265ba35bd5)를 읽고 part1, part2(14~57)부분을 정리했습니다.
 
@@ -16,6 +16,30 @@
 1.인터넷(INTERNET):인터넷은 어원적으로(INTER:상호)+(NET:그물)로 분석된다. 직역하면 함께 쓰는 그물로 해석되고, 컴퓨터 공학적으로는 무수히 많은 소규모 네트워크들이 모여 만들어진 거대한 네트워크로 해석됩니다.
 
 2.인트라넷(INTRANET):인트라넷은 어원적으로(INTRA:안에)+(NET:그물)로 분석된다. 직역하면 내부 에서만 쓰는 그물로 해석되고, 컴퓨터 공학적으로는 인터넷과 분리된 독립적인 네트워크를 의미한다.
+
+## LAN VS WAN (네트워크가 지원하는 통신거리에 따른 분류)
+
+- 네트워크가 지원하는 통신를 기준으로 나눈 네트워크의 종류
+
+![img](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Data_Networks_classification_by_spatial_scope.svg/375px-Data_Networks_classification_by_spatial_scope.svg.png)
+
+LAN:LOCAL AREA NETWORK의 약자로, 비교적 좁은 범위(학교,연구소,사무실)에서 통신을 지원하는 네트워크를 말한다.
+
+WAN:WIDE AREA NETWORK의 약자로, 비교적 넓은 범위(대륙간 통신)에서 통신을 지원하는 네트워크를 말한다.
+
+## LAN의 종류 대표적인 2가지
+
+### 1.Ethernet:LAN을 구성하는 장비들이 서로 CSMA/CD 방식으로 통신하는 LAN
+
+- csma/cd란 무엇일까?
+
+![img](https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/CSMACD-Algorithm.svg/660px-CSMACD-Algorithm.svg.png)
+
+
+### 2.TOKEN ring network:lan을 구성하는 장비들이 token ring이라는 회선을 이용해 통신하는 lan
+
+
+
 
 
 
