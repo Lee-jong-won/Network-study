@@ -33,11 +33,14 @@ WAN:WIDE AREA NETWORK의 약자로, 비교적 넓은 범위(대륙간 통신)에
 
 - csma/cd란 무엇일까?
 
-csma/cd는 lan에서 장비들간의 통신 규약 중 하나이다(규약이란 말이 처음에 어렵게 느껴질 수 있으니, 처음엔 일단 규약=약속으로 받아들여도 좋다). 하지만 이것이 csma/cd에대한 엄힐한 설명은 아니다. 엄밀히 이 용어를 정의하자면, csma/cd란 아래 절차를 따르는 lan 내부 장비간 통신규약이다.
+csma/cd는 lan에서 장비들간의 통신 규약 중 하나이다(규약이란 말이 처음에 어렵게 느껴질 수 있으니, 처음엔 일단 규약=약속으로 받아들여도 좋다). 하지만 이것이 csma/cd에대한 엄밀한 설명은 아니다. 엄밀히 이 용어를 정의하자면, csma/cd란 아래 절차를 따르는 lan 내부 장비간 통신규약이다.
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/CSMACD-Algorithm.svg/660px-CSMACD-Algorithm.svg.png)
 
+통신 규약에 대한 자세한 설명(아래 순서를 따라 데이터가 한 host(송신 네트워크 장비)에서 다른 host(수신 네트워크 장비)로 전송된다.)
 
+1.lan 내부에 데이터 송수신이 이루어지고 있는지 확인한다.
+2-1.이루어 지고 있다면, 
 
 
 ### 2.TOKEN ring network:lan을 구성하는 장비들이 token ring이라는 회선을 이용해 통신하는 lan
