@@ -67,7 +67,16 @@ csma/cd는 lan에서 장비들간의 통신 규약 중 하나이다(규약이란
 
 ### 2.TOKEN ring network:lan을 구성하는 장비들이 token ring이라는 회선을 이용해 통신하는 lan
 
+- 토큰링을 회선을 이용한 lan의 모습 
 
+![img](https://www.cse.iitk.ac.in/users/dheeraj/cs425/fig.lec07/ring.gif)
+
+#### token ring 네트워크에서 통신 규약
+
+1.token이 일정한 간격을 두고, lan 내부 컴퓨터들로 수시로 옮겨다닌다.
+2.local에 있는 node가 token을 가지고 있는 동안, 그 node는 데이터를 송신할 수 있고, token을 가지지 않고 있는 node들은 데이터를 송신할 수 없다.
+
+--->ethernet과 구분되는 점은 데이터 전송 시 collision이 발생하지 않는 다는 것이다.
 
 
 
