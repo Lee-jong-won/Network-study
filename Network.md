@@ -79,6 +79,16 @@ csma/cd는 lan에서 장비들간의 통신 규약 중 하나이다(규약이란
 
 --->ethernet과 구분되는 점은 데이터 전송 시 collision이 발생하지 않는 다는 것이다.
 
+## LOCAL LAN 에서 NETWORK EDGE(host) 사이에서 벌어지는 통신의 종류
+1.unicast:LAN에 있는 한 edge가 다른 하나의 edge에 데이터를 전송하는 것
+ 
+2.broadcast:Lan에 있는 한 edge가 lan 전체에 데이터를 전송하는 것
+ 
+3.multicast:LAN에 있는 한 edge가 lan 상의 모든 컴퓨터에 데이터를 전달하는 것이 아니라, 한 개 이상의 컴퓨터들에 데이터를 전송하는 것.
+
+![img](https://forum.huawei.com/huaweiconnect/data/attachment/forum/201911/20/150616may2y00y2l0yly0q.png) 
+
+
 
 
 
