@@ -80,6 +80,7 @@ csma/cd는 lan에서 장비들간의 통신 규약 중 하나이다(규약이란
 --->ethernet과 구분되는 점은 데이터 전송 시 collision이 발생하지 않는 다는 것이다.
 
 ## LOCAL LAN 에서 NETWORK EDGE(host) 사이에서 벌어지는 통신의 종류
+
 1.unicast:LAN에 있는 한 edge가 다른 하나의 edge에 데이터를 전송하는 것
  
 2.broadcast:Lan에 있는 한 edge가 lan 전체에 데이터를 전송하는 것
@@ -91,7 +92,24 @@ csma/cd는 lan에서 장비들간의 통신 규약 중 하나이다(규약이란
 
 
 
+## OSI 7 계층
 
+**[what is osi 7 layers?]**
+
+osi 7계층은 7단계로 규격화 된 (네트워크 장비의 데이터 송수신 과정)이다. 
+
+**[왜 나누었을까?]**
+
+- 송수신 과정에서 벌어지는 문제에 대한 명확한 진단이 가능하다.
+- 데이터의 흐름을 한눈에 볼 수 있다.
+
+**[osi 7 계층 모델을 참조한 데이터 송수신 과정]**
+
+![img](https://insights.profitap.com/hs-fs/hubfs/The%207%20Layers%20of%20OSI.png?width=840&name=The%207%20Layers%20of%20OSI.png)
+
+**[각 layer에서 데이터 송수신에 관여하는 장비들의 동작]**
+
+![img](http://files.itworld.co.kr/archive/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202016-06-02%20%EC%98%A4%ED%9B%84%202_56_08(1).jpg)
 
 
 
