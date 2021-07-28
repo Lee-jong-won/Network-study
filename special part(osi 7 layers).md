@@ -39,8 +39,10 @@ https://en.wikipedia.org/wiki/Port_(computer_networking)
 
 6.2-layer(data-link-layer) -> 데이터가 전달될 수신지를 포함한 lan내에서 데이터가 어떻게 전달될지 결정된다
 
-7.1-layer(physical-layer) -> 2-layer에서 결정된 내용에 따라 데이터가 물리적으로 회선을 따라 이동하거나(데이터가 수신되거나 송신된다) 증폭되거나 변형된다.
+7.1-layer(physical-layer) -> 송신지에서 수신지로 물리적으로 데이터를 보내는 방법이 결정된다
 원문:Within the semantics of the OSI model, the physical layer translates logical communications requests from the data link layer into hardware-specific operations to cause transmission or reception of electronic (or other) signals.[4][5] The physical layer supports higher layers responsible for generation of logical data packets
+
+8.위에서 결정된 내용에 따라 데이터가 전송된다
 
 **[각 계층에서 수행되는 작업]**
 
