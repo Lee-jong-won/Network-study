@@ -26,8 +26,21 @@ edge가 식별할 수 있도록 표준화된 형태로 encoding되고, 이후 �
 
 ex)1.쌍방연결, 2.일방연결
 
-4.
+4.4-layer(transport-layer) -> 편지에 수신자가 사는 아파트내 위치가 결정된다. 경우에 따라 편지의 송신위치가 결정될 수도 있다. ex)from 499 to 9  - 수신자 측 어플리케이션의 포트번호가 결정되고, 경우에 따라 송신자 측 어플리케이션의 포트번호가 결정될 수도 있다. 
 
+아파트 - 네트워크 edge
+
+아파트 내 가정집의 호수 - port_number
+
+what is port?
+https://en.wikipedia.org/wiki/Port_(computer_networking)
+
+5.3-layer(network-layer) -> 편지가 수신될 위치와 송신될 위치의 지도상 위치와 편지가 이동할 경로가 결정된다 - 인터넷상에서 수신지와 송신지들을 구별해주는 번호가 결정된다. 또한 데이터가 이동할 경로가 결정되기도 한다.
+
+6.2-layer(data-link-layer) -> 데이터가 전달될 수신지를 포함한 lan내에서 데이터가 어떻게 전달될지 결정된다
+
+7.2-layer에서 결정된 내용에 따라 데이터가 물리적으로 회선을 따라 이동하거나(데이터가 수신되거나 송신된다) 증폭되거나 변형된다.
+->원문:Within the semantics of the OSI model, the physical layer translates logical communications requests from the data link layer into hardware-specific operations to cause transmission or reception of electronic (or other) signals.[4][5] The physical layer supports higher layers responsible for generation of logical data packets
 
 **[각 계층에서 수행되는 작업]**
 
